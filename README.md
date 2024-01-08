@@ -82,4 +82,4 @@ Our system integrates Arduino Nano, ESP32 Cam, DHT22, Fingerprint Sensor,2.0 inc
 - TFT RES to Arduino Nano D4
 - TFT DC to Arduino Nano D7
 - TFT CS to Arduino Nano D2
-
+## Good Luck!
