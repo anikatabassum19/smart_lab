@@ -34,4 +34,10 @@ Our system integrates Arduino Nano, ESP32 Cam, DHT22, Fingerprint Sensor,2.0 inc
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/anikatabassum19/smar_lab.git
+   git clone https://github.com/anikatabassum19/smart_lab/
+2. Then Upload the fire alarm code in nodemcu
+3. Upload the RFID code in arduino nano
+4. Change the SSID and Password of live monitoring code and then upload it in the esp32 cam
+
+## Connection Strings
+
