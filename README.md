@@ -40,4 +40,46 @@ Our system integrates Arduino Nano, ESP32 Cam, DHT22, Fingerprint Sensor,2.0 inc
 4. Change the SSID and Password of live monitoring code and then upload it in the esp32 cam
 
 ## Connection Strings
+### Arduino Nano to Servo:
+- Servo GND to Arduino Nano GND
+- Servo VCC to Arduino Nano 5V
+- Servo Data to Arduino Nano D6
+
+### Arduino Nano to RFID:
+- RFID VCC to Arduino Nano 3.3V
+- RFID GND to Arduino Nano GND
+- RFID SDA to Arduino Nano D10
+- RFID SCK to Arduino Nano D13
+- RFID MOSI to Arduino Nano D11
+- RFID MISO to Arduino Nano D12
+- RFID RST to Arduino Nano D9
+
+### NodeMCU to DHT22:
+- DHT22 GND to NodeMCU GND
+- DHT22 VCC to NodeMCU 3V
+- DHT22 Data to NodeMCU D2
+
+### TFT 2.4 to NodeMCU:
+- TFT VCC to NodeMCU 3.3V
+- TFT GND to NodeMCU GND
+- TFT CS to NodeMCU D8
+- TFT Reset to NodeMCU RST
+- TFT DC to NodeMCU D4
+- TFT SDI to NodeMCU D7
+- TFT SCK to NodeMCU D5
+- TFT LED to NodeMCU 3.3V
+- TFT SDD to NodeMCU D6
+- TFT T_CLK to NodeMCU D5
+- TFT T_DIN to NodeMCU D7
+- TFT T_D0 to NodeMCU D6
+- TFT T_IRQ to NodeMCU D1
+
+### Arduino Nano to 2.0 TFT Display:
+- TFT GND to Arduino Nano GND
+- TFT 3.3V to Arduino Nano 3.3V
+- TFT SCL to Arduino Nano D13
+- TFT SDA to Arduino Nano D11
+- TFT RES to Arduino Nano D4
+- TFT DC to Arduino Nano D7
+- TFT CS to Arduino Nano D2
 
